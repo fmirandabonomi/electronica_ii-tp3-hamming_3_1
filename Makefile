@@ -20,10 +20,6 @@ run : force
 
 # Targets to analyze libraries
 init: force
-	# C:\msys64\mingw32\lib/ghdl\ieee\v93\../../src/ieee/v93/std_logic_1164.vhdl
-	# C:\msys64\mingw32\lib/ghdl\ieee\v93\../../src/ieee/v93/std_logic_1164-body.vhdl
-	# C:\msys64\mingw32\lib/ghdl\ieee\v93\../../src/ieee/v93/numeric_std.vhdl
-	# C:\msys64\mingw32\lib/ghdl\ieee\v93\../../src/ieee/v93/numeric_std-body.vhdl
 	$(GHDL) -a $(GHDLFLAGS) utils.vhd
 	$(GHDL) -a $(GHDLFLAGS) hamming_3_1_tb.vhd
 	$(GHDL) -a $(GHDLFLAGS) encoder.vhd
