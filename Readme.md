@@ -9,9 +9,9 @@ Completa la implementación del decodificador en `decoder.vhd`
 
 El testbench se ejecutará con los comandos
 ```
-mingw32-make run
+mingw32-make
 ```
 o en linux
 ```
-make run
+make
 ```
