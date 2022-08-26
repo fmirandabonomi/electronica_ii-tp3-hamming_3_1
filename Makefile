@@ -8,7 +8,7 @@ GHDLFLAGS=
 GHDLRUNFLAGS=
 
 # Default target : elaborate
-all : run
+all : init run
 
 # Elaborate target.  Almost useless
 elab : force
