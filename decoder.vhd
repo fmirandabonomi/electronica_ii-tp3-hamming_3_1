@@ -9,5 +9,14 @@ end hamming_3_1_decoder;
 
 architecture arch of hamming_3_1_decoder is
 begin -- implementar la decodificación con corrección de error
-    y <= '0' ;
+    with x select
+        y <= '0' when "000",
+             '0' when "001",
+             '0' when "010",
+             '0' when "011",
+             '0' when "100",
+             '0' when "101",
+             '0' when "110",
+             '0' when others; --"111"
+
 end arch;

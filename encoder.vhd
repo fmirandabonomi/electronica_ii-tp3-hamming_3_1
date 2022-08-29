@@ -9,5 +9,7 @@ end hamming_3_1_encoder;
 
 architecture arch of hamming_3_1_encoder is
 begin -- implementar la codificación
-    y <= "000";
+    with x select 
+        y <= "000" when '0',
+             "000" when others; -- '1'
 end arch;
