@@ -1,2 +1,3 @@
-/.vscode
-/work-obj93.cf
+*.o
+*.exe
+*.cf

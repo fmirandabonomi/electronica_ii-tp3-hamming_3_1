@@ -7,11 +7,8 @@ Para clonar el repositorio ábrelo en github, selecciona _code > https > el sím
 Completa la implementación del codificador en `encoder.vhd`
 Completa la implementación del decodificador en `decoder.vhd`
 
-El testbench se ejecutará con los comandos
-```
-mingw32-make
-```
-o en linux
+El testbench se ejecutará con el comando
+
 ```
 make
 ```
